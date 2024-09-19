@@ -8,7 +8,7 @@ class HomeScreen extends StatelessWidget {
     const int days = 30;
     return Scaffold(
       appBar: AppBar(
-        title: Text("catalog App"),
+        title: const Text("catalog App"),
       ),
       body: const Center(child: Text('wlc $days')),
       drawer: const Drawer(),

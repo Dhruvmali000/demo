@@ -11,7 +11,7 @@ class HomeScreen extends StatelessWidget {
         title: Text("catalog App"),
       ),
       body: const Center(child: Text('wlc $days')),
-      drawer: Drawer(),
+      drawer: const Drawer(),
     );
   }
 }
